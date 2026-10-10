@@ -10,7 +10,7 @@ def carregar_mensagens():
         return json.load(f)
 
 def salvar_mensagens(mensagens):
-    with open('Futebol.json', 'w', encoding='utf-8') as f:
+    with open('Pokémon.json', 'w', encoding='utf-8') as f:
         json.dump(mensagens, f, indent=4, ensure_ascii=False)
 
 # --- Sidebar ---
